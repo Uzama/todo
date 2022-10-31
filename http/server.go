@@ -7,7 +7,7 @@ import (
 
 func StartServer() {
 	server := http.Server{
-		Addr:    "localhost:8080",
+		Addr:    "localhost:8000",
 		Handler: Init(),
 	}
 
